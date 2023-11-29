@@ -1,7 +1,4 @@
-# BigQuery Question and Answer Bot
-
-### What Problem does the app solve
-
+# Deploy a Simple Streamlit app to Cloud Run
 
 
 # Prerequisites
@@ -9,9 +6,8 @@ The assumption is made that you have set up a google cloud project and activated
 
 #### The following Google Cloud Project APIs need to be enabled
 * IAM
-* BigQuery
-* Vertex AI
 * Cloud Run
+* Artifact Repository
 
 
 #### gcloud Setup
