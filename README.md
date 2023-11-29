@@ -26,7 +26,11 @@ export APP_NAME='app-boilerplate-streamlit'
 export REGION="us-central1"
 export AR_NAME="ar-boilerplate-streamlit" 
 export AR_URI=${REGION}-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/${AR_NAME}
-#export SERVICE_ACCOUNT="<enter service account for cloud run"
+
+# By default, Cloud Run revisions and jobs execute as the Compute Engine default
+# Set this variable with an alternate SA if required
+# Note: This is recommended
+export SERVICE_ACCOUNT="<enter service account for cloud run"
 ```
 
 ```shell
